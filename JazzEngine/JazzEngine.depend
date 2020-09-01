@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1598939328 source:/home/wolfenrahd/code/JazzEngine/main.cpp
+	<iostream>
+	"glad/glad.h"
+	<SDL2/SDL.h>
+	"GameSystem/GameSystem.h"
+
+1573037628 /home/wolfenrahd/code/JazzEngine/glad/glad.h
+	<KHR/khrplatform.h>
+
+1573037628 /home/wolfenrahd/code/glad/include//glad/glad.h
+	<KHR/khrplatform.h>
+
+1573037628 /home/wolfenrahd/code/glad/include//KHR/khrplatform.h
+	<stdint.h>
+	<inttypes.h>
+	<stdint.h>
+
+1573037628 source:/home/wolfenrahd/code/JazzEngine/glad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<glad/glad.h>
+
+1598939288 /home/wolfenrahd/code/JazzEngine/GameSystem/GameSystem.h
+	"glad/glad.h"
+	<SDL2/SDL.h>
+
+1598939288 source:/home/wolfenrahd/code/JazzEngine/GameSystem/GameSystem.cpp
+	"GameSystem.h"
+	<iostream>
+
