@@ -5,7 +5,6 @@
 GameSystem::GameSystem() {
     windowSize.x = 800;
     windowSize.y = 600;
-    windowColor.r = 1;
 }
 
 GameSystem::~GameSystem() {
@@ -40,7 +39,7 @@ void GameSystem::init() {
 }
 
 void GameSystem::clearWindow() {
-    glClearColor(0.2, 0.2, 0.2, 1.0);
+    glClearColor(windowColor.r, windowColor.g, windowColor.b, windowColor.a);
     glClear(GL_COLOR_BUFFER_BIT);
 }
 
@@ -56,3 +55,12 @@ void GameSystem::setWindowSize(int width, int height) {
         glViewport(0, 0, windowSize.x, windowSize.y);
     }
 }
+
+void GameSystem::setWindowColor(float r, float g, float b, float a) {
+    windowColor.r = r;
+    windowColor.g = g;
+    windowColor.b = b;
+    windowColor.a = a;
+}
+
+
